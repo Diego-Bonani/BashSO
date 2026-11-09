@@ -10,8 +10,6 @@ ALUNOS=(
     "João Pedro Lima de Campos"
 )
 
-MESES=(janeiro fevereiro março abril maio junho julho agosto setembro outubro novembro dezembro)
-
 # A opção 5 é a ÚNICA forma de sair: ignora Ctrl+C, Ctrl+Z e Ctrl+\
 trap '' SIGINT SIGTSTP SIGQUIT
 
@@ -48,7 +46,7 @@ tela_inicial() {
 
     # Valores do sistema (mês em português pela tabela MESES)
     dia=$(date +%d)
-    mes=${MESES[$(( 10#$(date +%m) - 1 ))]}
+    mes=$(LC_TIME=pt_BR.UTF-8 date +%B)
     ano=$(date +%Y)
     hora=$(date +%H)
     min=$(date +%M)
