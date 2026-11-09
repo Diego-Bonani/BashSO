@@ -1,4 +1,4 @@
-# Relatório do Script `tela_inicial_v2.sh`
+# Relatório do Script `ac.sh`
 
 **Disciplina:** Sistemas Operacionais (IBM8940) — Turma 8001
 **Professor:** Luiz Fernando T. de Farias
@@ -9,7 +9,7 @@
 
 ## 1. Visão geral
 
-O `tela_inicial_v2.sh` é um script Bash que exibe uma tela inicial padronizada (cabeçalho com dados da disciplina, equipe, data e hora do sistema) e um menu interativo com 4 funcionalidades mais a opção de finalizar, totalizando 5 opções. O menu roda em loop e **a única forma de encerrar o programa é pela opção 5**.
+O `ac.sh` é um script Bash que exibe uma tela inicial padronizada (cabeçalho com dados da disciplina, equipe, data e hora do sistema) e um menu interativo com 4 funcionalidades mais a opção de finalizar, totalizando 5 opções. O menu roda em loop e **a única forma de encerrar o programa é pela opção 5**.
 
 O script não usa `sudo` nem instala pacotes: roda apenas com comandos já presentes em uma instalação padrão do Linux, sem pedir senha de administrador.
 
