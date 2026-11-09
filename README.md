@@ -3,6 +3,7 @@
 **Disciplina:** Sistemas Operacionais (IBM8940) — Turma 8001
 **Professor:** Luiz Fernando T. de Farias
 **Semestre:** 2 de 2026
+**Integrantes:** Diego Bonani, João Pedro Lima
 
 ---
 
