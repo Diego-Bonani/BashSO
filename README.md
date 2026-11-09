@@ -16,8 +16,8 @@ O script não usa `sudo` nem instala pacotes: roda apenas com comandos já prese
 Como executar:
 
 ```bash
-chmod +x tela_inicial_v2.sh
-./tela_inicial_v2.sh
+chmod +x ac.sh
+./ac.sh
 ```
 
 ### Estrutura do código
